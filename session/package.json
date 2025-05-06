@@ -1,0 +1,25 @@
+{
+  "name": "session",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "complile": "tsc",
+    "start": "node --experimental-transform-types index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "connect-mongodb-session": "^5.0.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1"
+  },
+  "devDependencies": {
+    "@types/connect-mongodb-session": "^2.4.8",
+    "@types/express": "^5.0.1",
+    "@types/express-session": "^1.18.1",
+    "typescript": "^5.8.3"
+  }
+}
