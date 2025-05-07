@@ -1,0 +1,12 @@
+GET http://localhost:3000/login HTTP/1.1
+
+###
+POST http://localhost:3000/send-mail HTTP/1.1
+Content-Type: application/json
+
+{
+    "from": "fawals98@gmail.com",
+    "to": "tienvn998@gmail.com", 
+    "subject": "hello email",
+    "html": "<h1>Hello sender! Congratulation !</h1><p>How are rờ zú ?!</p>"
+}
