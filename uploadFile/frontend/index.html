@@ -16,18 +16,24 @@
             &lt;form <span class="bold">enctype=&quot;multipart/form-data&quot;</span>&gt;
         </div>
     </div>
-    <hr/>
-    <hr/>
-        <form action="http://localhost:3000/" method="post" enctype="multipart/form-data" class="flex flex-col gap-4 w-550px">
-            <div class="flex flex-col border p-4">
-                <label for="file-input">file updoad</label>
-                <input type="file" id="file-input">
-            </div>
-            
-            <div>
-                <button class="btn" type="submit">Submit</button>
-            </div>    
-        </form>
+    <hr />
+    <hr />
+    <form action="http://localhost:3000/upload-file" method="post" enctype="multipart/form-data"
+        class="flex flex-col gap-4 w-550px">
+        <div class="flex flex-col border p-4">
+            <label for="file-input">file updoad</label>
+            <input type="file" name="file" id="file-input">
+        </div>
+
+        <div class="flex flex-col border p-4">
+            <label for="title">title</label>
+            <input type="text" name="title" id="title">
+        </div>
+
+        <div>
+            <button class="btn" type="submit">Submit</button>
+        </div>
+    </form>
 </body>
 
 </html>
